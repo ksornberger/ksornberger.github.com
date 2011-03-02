@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: post
 title: Blogging With Jekyll and Github
 ---
 
