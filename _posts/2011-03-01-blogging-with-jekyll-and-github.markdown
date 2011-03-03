@@ -92,5 +92,42 @@ Now all you need is a simple git commit and push to update your live site. Every
 
 
 ## Creating Your Jekyll Powered Blog
+Another nice thing about Jekyll is the basic support for a blog layout. It relies on a naming convention where all of your blog posts go in a the *_posts* subdirectory and each post follows the naming format: *year-month-day-title-of-the-post.format* where the *format* can be either html, markdown or textile depending on what you prefer.
 
+For your first post, create the file *posts/2011-03-01-first-post.markdown*:
+	---
+	layout: default
+	title: First Post
+	---
+	
+	This is my first post. Hoo-Raw.
+	
+Now we can update our index page to list the titles of our blog posts and provide a link to the full post:
+	---
+	layout: default
+	title: Kevin Sornberger's Blog
+	---
+	 <ul>
+  	{% for post in site.posts %}
+   		<li>
+			<span>{{ post.date | date: "%B %e, %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a>
+    	</li>
+  	{% endfor %}	
+	</ul>
+	
+Although this is a very simple layout, you can extend these concepts and actually create a pretty substantial site.
 
+## Custom Domains
+Another nice thing about working with GitHub Pages is that you can add your own custom domain for your site instead of using username.github.com. All you need to do is create a file called CNAME in your site's root and put the desired domain there that you will be using. For example, CNAME for this site only contains:
+	ksornberger.com
+	
+After adding that file, you will need to modify your DNS settings by adding an A record that points to *207.97.227.245*.
+
+## Additional resources
+- [Jekyll Home](https://github.com/mojombo/jekyll) - Covers more features and configuration options for Jekyll. Make sure to look at the [usage page](http://wiki.github.com/mojombo/jekyll/usage) for a good overview of everything as well as a list of [Jekyll powered sites](https://github.com/mojombo/jekyll/wiki/sites), many of which provide their source code to get an idea of how to do things on your own site.
+
+- [GitHub Pages](http://pages.github.com/) - An explanation on how to setup your personal GitHub page as well as how to setup pages for your projects.
+
+- [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) - Metadata for files that will be processed by Jekyll.
+
+- [Liquid Templating Language](http://www.liquidmarkup.org/) - The Ruby templating engine used by Jekyll.
