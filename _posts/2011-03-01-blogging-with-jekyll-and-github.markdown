@@ -44,6 +44,53 @@ No go make a coffee or play a round of Black Ops Free For All because your page 
 ## The Fun Stuff (Jekyll)
 Adding a bunch of static files for your site is <del>boring</del> fine, it isn't the most effective way to run your site. This is where the [Jekyll](http://github.com/mojombo/jekyll) comes into play. Jekyll is a simple, blog aware, static site generation tool. It takes a template directory, which represents the raw from of your website, runs it through Textile or Markdown and [Liquid](http://liquidmarkup.org/) converters, and outputs a complete status website for you to serve. The best part of this, is that GitHub uses Jekyll as the engine behind [GitHub Pages](http://pages.github.com/) and performs the generation automatically after a push!
 
-<Not Finished>
+You can find more detailed install and configuration instructions at the [Jekyll site](, or take a look a [my repo](http://www.github.com/ksornberger/ksornberger.github.com/) for the code for this blog. 
+
+It's a good idea to [install Jekyll](https://github.com/mojombo/jekyll/wiki/install) on your local machine so you can preview things before you push. The easiest way to do this is via Ruby Gems:
+	gem install jekyll
+	
+
+You can find more information on Basic [Jekyll Usage here](https://github.com/mojombo/jekyll/wiki/usage), but a typical site is typically structured as follows:
+	.
+	|-- _config.yml
+	|-- _layouts
+	|   |-- default.html
+	|   `-- post.html
+	|-- _posts
+	|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+	|   `-- 2009-04-26-barcamp-boston-4-roundup.textile
+	|-- _site
+	`-- index.html
+
+To create our basic blog, create the file _layouts/default.html.
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{{ page.title }}</title>
+	</head>
+
+	<body>
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</body>
+	</html>
+	
+And update index.html to:
+	---
+	layout: default
+	title: Kevin Sornberger's Blog
+	---
+	
+	Welcome to my site!
+	
+The stuff at the top of that file lets Jekyll know that we want this file processed with the template named *default*, and we are setting the variable *page.title* to use in that template. The page will be output in the template where we have the *{{ content }} tag.
+
+Now that we have our templates and content set up, we can run the following command from the site root to build the static pages. The generated output will be put into a _site subdirectory.
+	jekyll --pygments
+	
+Now all you need is a simple git commit and push to update your live site. Every time you push to GitHub it will run jekyll --pygments before publishing. Because of this, it is probably a good idea to add your _site folder to your .gitignore file.
+
+
+## Creating Your Jekyll Powered Blog
 
 
