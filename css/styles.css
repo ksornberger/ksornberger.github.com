@@ -27,7 +27,7 @@ hr{
 	margin: 2em 1em;
 }
 .content{
-	margin-left: 110px;
+	margin-left: 140px;
 	width: 600px;
 	margin-bottom: 50px;
 }
@@ -79,7 +79,7 @@ h1{
 	position: fixed;
 	left: 15px;
 	top: 15px;
-	width: 80px;
+	width: 110px;
 	font-family: Helvetica, sans-serif;
 	
 }
@@ -101,7 +101,7 @@ h1{
 }
 
 #header #kevin{
-	font-size: 23px;
+	font-size: 30px;
 	letter-spacing: 5px;
 	color: #666;
 }
@@ -111,7 +111,7 @@ h1{
 }
 
 #header #sornberger{
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	color: #000;
