@@ -131,6 +131,24 @@ h1{
 	letter-spacing: 1px;
 }
 
+#header #sections{
+  margin: 25px 0 0 -15px;
+}
+#header #sections div{
+  margin-bottom: 7px;
+}
+#header #sections a{
+  background-color: #000;
+  padding: 3px 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+#header #sections a:hover{
+  color: #ccc;
+}
+
+
 
 #post{
   padding-bottom: 15px;
