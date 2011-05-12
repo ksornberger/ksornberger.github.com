@@ -103,19 +103,11 @@ For your first post, create the file *posts/2011-03-01-first-post.markdown*:
 	
 	This is my first post. Hoo-Raw.
 	
-Now we can update our index page to list the titles of our blog posts and provide a link to the full post:
-	---
-	layout: default
-	title: Kevin Sornberger's Blog
-	---
-	 <ul>
-   	{{ "{% for post in site.posts "}}%}
-   		<li>
-			<span>{{ "{{ post.date | date:'%B %e, %Y'"}}}}</span><a href="{{ "{{ post.url "}}}}">{{"{{ post.title "}}}}</a>
-    	</li>
-  	{{ "{% endfor "}} %}	
-	</ul>
-	
+Now we can update our index page to list the titles of our blog posts and provide a link to the full post (I've included it as a screen shot because I was having issues with escaping the Liquid code as Jekyll was trying to parse it):
+
+<img src="/images/index.html-screenshot.png" alt="Jekyll Blog Index Html" title="The code snippet for the index of your Jekyll Powered blog"/>
+
+
 Although this is a very simple layout, you can extend these concepts and actually create a pretty substantial site. 
 
 ## Custom Domains
