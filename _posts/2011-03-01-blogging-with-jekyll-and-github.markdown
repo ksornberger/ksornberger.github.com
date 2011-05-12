@@ -39,13 +39,13 @@ Then lets push to GitHub!
 	git remote add origin git@github.com:ksornberger/ksornberger.github.com.git
 	git push origin master
 
-No go make a coffee or play a round of Black Ops Free For All because your page will be live at http://username.github.com/ in about 10 minutes.
+Now go make a coffee or play a round of Black Ops Free For All because your page will be live at http://username.github.com/ in about 10 minutes.
 
 
 ## The Fun Stuff (Jekyll)
-Adding a bunch of static files for your site is <del>boring</del> fine, it isn't the most effective way to run your site. This is where the [Jekyll](http://github.com/mojombo/jekyll) comes into play. Jekyll is a simple, blog aware, static site generation tool. It takes a template directory, which represents the raw from of your website, runs it through Textile or Markdown and [Liquid](http://liquidmarkup.org/) converters, and outputs a complete status website for you to serve. The best part of this, is that GitHub uses Jekyll as the engine behind [GitHub Pages](http://pages.github.com/) and performs the generation automatically after a push!
+Adding a bunch of static files for your site is <del>boring</del> fine, but it isn't the most effective way to run your site. This is where the [Jekyll](http://github.com/mojombo/jekyll) comes into play. Jekyll is a simple, blog aware, static site generation tool. It takes a template directory, which represents the raw from of your website, runs it through Textile or Markdown and [Liquid](http://liquidmarkup.org/) converters, and outputs a complete status website for you to serve. The best part of this, is that GitHub uses Jekyll as the engine behind [GitHub Pages](http://pages.github.com/) and performs the generation automatically after a push!
 
-You can find more detailed install and configuration instructions at the [Jekyll site](, or take a look a [my repo](http://www.github.com/ksornberger/ksornberger.github.com/) for the code for this blog. 
+You can find more detailed install and configuration instructions at the [Jekyll site](http://jekyllrb.com/), or take a look a [my repo](http://www.github.com/ksornberger/ksornberger.github.com/) for the code for this blog. 
 
 It's a good idea to [install Jekyll](https://github.com/mojombo/jekyll/wiki/install) on your local machine so you can preview things before you push. The easiest way to do this is via Ruby Gems:
 	gem install jekyll
