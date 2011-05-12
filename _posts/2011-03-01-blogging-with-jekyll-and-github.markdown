@@ -111,7 +111,7 @@ Now we can update our index page to list the titles of our blog posts and provid
 	 <ul>
    	{{ "{% for post in site.posts "}}%}
    		<li>
-			<span>{{ "{{ post.date | date:"""}} "%B %e, %Y" }}</span><a href="{{ "{{ post.url "}}}}">{{"{{ post.title "}}}}</a>
+			<span>{{ "{{ post.date | date:"%B %e, %Y""}} "" }}</span><a href="{{ "{{ post.url "}}}}">{{"{{ post.title "}}}}</a>
     	</li>
   	{{ "{% endfor "}} %}	
 	</ul>
