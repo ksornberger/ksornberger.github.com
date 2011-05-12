@@ -109,14 +109,14 @@ Now we can update our index page to list the titles of our blog posts and provid
 	title: Kevin Sornberger's Blog
 	---
 	 <ul>
-  	{% for post in site.posts %}
+   	{{ "{% for post in site.posts "}}%}
    		<li>
-			<span>{{ post.date | date: "%B %e, %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a>
+			<span>{{ "{{ post.date | date:"}} "%B %e, %Y" }}</span><a href="{{ "{{ post.url "}}}}">{{"{{ post.title "}}}}</a>
     	</li>
-  	{% endfor %}	
+  	{{ "{% endfor "}} %}	
 	</ul>
 	
-Although this is a very simple layout, you can extend these concepts and actually create a pretty substantial site.
+Although this is a very simple layout, you can extend these concepts and actually create a pretty substantial site. 
 
 ## Custom Domains
 Another nice thing about working with GitHub Pages is that you can add your own custom domain for your site instead of using username.github.com. All you need to do is create a file called CNAME in your site's root and put the desired domain there that you will be using. For example, CNAME for this site only contains:
