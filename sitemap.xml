@@ -1,11 +1,11 @@
 ---
 layout: nil
-rooturl: http://www.ksornberger.com
+rooturl: http://ksornberger.com
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>http://www.ksornberger.com/</loc>
+      <loc>http://ksornberger.com/</loc>
       <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1</priority>
