@@ -8,6 +8,13 @@ a{
 	color: #227CE8;
 }
 
+#container {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 960px;
+}
+
 a:hover{
 	text-decoration: none;
 }
@@ -27,8 +34,8 @@ hr{
 	margin: 2em 1em;
 }
 .content{
-	margin-left: 140px;
-	width: 800px;
+	margin-left: 180px;
+	width: 780px;
 	margin-bottom: 50px;
 }
 .related{
@@ -77,10 +84,10 @@ h1{
 
 #header{
 	position: fixed;
-	left: 15px;
 	top: 15px;
-	width: 110px;
+	width: 180px;
 	font-family: Helvetica, sans-serif;
+	text-align: center;
 	
 }
 
@@ -132,7 +139,7 @@ h1{
 }
 
 #header #sections{
-  margin: 25px 0 0 -15px;
+  margin: 25px 0 0 0;
 }
 #header #sections div{
   margin-bottom: 7px;
