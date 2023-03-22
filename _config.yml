@@ -1,3 +1,4 @@
 pygments: true
 permalink: /blog/:title
 auto: true
+website: https://www.ksornberger.com
