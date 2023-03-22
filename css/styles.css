@@ -122,6 +122,8 @@ h1{
 	font-weight: bold;
 	letter-spacing: 1px;
 	color: #000;
+	margin-left: -5px;
+	display: block;
 }
 
 #header .site{
@@ -154,6 +156,11 @@ h1{
 #header #sections a:hover{
   color: #ccc;
 }
+#header h1{
+	border: none;
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+} 
 
 
 
@@ -210,7 +217,7 @@ h1{
   color: #444;
 }
 #post blockquote cite:before{
-  content: 'Ñ ';
+  content: 'ï¿½ ';
 }
 #post blockquote cite{
   text-align: right;
