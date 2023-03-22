@@ -13,7 +13,11 @@ rooturl: http://www.ksornberger.com
 {% for post in site.posts %}
    <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.last_modified_at %}
+      <lastmod>{{ post.last_modified_at | date: '%Y-%m-%d' }}</lastmod>
+      {% else %}
       <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
+      {% endif %}
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
    </url>
