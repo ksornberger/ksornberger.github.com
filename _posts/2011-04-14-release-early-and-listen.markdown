@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Release Early And Listen
+description: Stop waiting for your software to be done. Release earlier.
 ---
 
 [DevBBQ](http://www.devbbq.com), another company that I am a part of has just entered the beta phase for our first consumer product [CoffeeDash](http://www.coffeedash.com). CoffeeDash is an iPhone app that makes sharing coffee with friends easier, whenever you're going to the coffee shop and want to pick up something for people, you no longer need to walk around and talk to people. All you need to do is fire up CoffeeDash, broadcast where you are going, then just sit back and wait for the requests to start rolling in, no need for that pesky face to face social interaction! As part of this release, I was amazed by the differences in what we thought the users wanted vs what they actually wanted. 

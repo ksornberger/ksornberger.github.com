@@ -2,6 +2,7 @@
 layout: post
 title: Blogging With Jekyll and Github
 last_modified_at: 2023-03-22 8:30:00 +0000
+description: A guide to getting started making your own blog for free using Jekyll and Github pages
 ---
 
 I am a developer, therefore I should have a blog. Right? I've been planning on setting one up for a while, but I didn't want to use Wordpress and was having trouble trying to figure out another solution without having to write one from scratch. Don't get me wrong, Wordpress does work well for blogs, but as a developer it just felt dirty to use that for my personal site where I should be showing off my mad skillz. Wordpress site != Mad Skillz. I figure it's kind of like a good carpenter buying all his wood furniture from Ikea. It's easy and works, but you can't be very proud to have it in your house.
@@ -145,7 +146,5 @@ More information around configuring a custom domain can be found [Here](https://
 - [Jekyll Home](https://github.com/mojombo/jekyll) - Covers more features and configuration options for Jekyll. Make sure to look at the [usage page](http://wiki.github.com/mojombo/jekyll/usage) for a good overview of everything as well as a list of [Jekyll powered sites](https://github.com/mojombo/jekyll/wiki/sites), many of which provide their source code to get an idea of how to do things on your own site.
 
 - [GitHub Pages](http://pages.github.com/) - An explanation on how to setup your personal GitHub page as well as how to setup pages for your projects.
-
-- [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) - Metadata for files that will be processed by Jekyll.
 
 - [Liquid Templating Language](http://www.liquidmarkup.org/) - The Ruby templating engine used by Jekyll.
