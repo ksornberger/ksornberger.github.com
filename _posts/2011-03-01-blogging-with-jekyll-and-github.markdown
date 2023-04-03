@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Blogging With Jekyll and Github
+meta_title: How to Write a Blog With Jekyll and Github
 last_modified_at: 2023-03-22 8:30:00 +0000
 description: A guide to getting started making your own blog for free using Jekyll and Github pages
 ---

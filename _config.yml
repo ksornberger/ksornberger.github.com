@@ -4,3 +4,5 @@ auto: true
 website: https://www.ksornberger.com
 plugins:
   - jekyll-seo-tag
+
+title: ksornberger.com

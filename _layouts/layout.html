@@ -4,10 +4,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title>{{ page.title }}</title>
+	{% if page.meta_title %}
+	<title>{{ page.meta_title }}</title>
+	{% else %}
+	<title>{{ page.title }} | Ksornberger.com</title>
+	{% endif %}
 	<meta name="author" content="Kevin Sornberger"/>
 	<link rel="stylesheet" href="/css/styles.css" />
-	{% seo %}
+	{% seo title=false %}
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-4237681-10']);
