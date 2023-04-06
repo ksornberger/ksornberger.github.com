@@ -4,6 +4,8 @@ title: Blogging With Jekyll and Github
 meta_title: How to Write a Blog With Jekyll and Github
 last_modified_at: 2023-03-22 8:30:00 +0000
 description: A guide to getting started making your own blog for free using Jekyll and Github pages
+redirect_from:
+  - /blog/blogging-with-jekyll-and-github/
 ---
 
 I am a developer, therefore I should have a blog. Right? I've been planning on setting one up for a while, but I didn't want to use Wordpress and was having trouble trying to figure out another solution without having to write one from scratch. Don't get me wrong, Wordpress does work well for blogs, but as a developer it just felt dirty to use that for my personal site where I should be showing off my mad skillz. Wordpress site != Mad Skillz. I figure it's kind of like a good carpenter buying all his wood furniture from Ikea. It's easy and works, but you can't be very proud to have it in your house.

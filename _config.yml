@@ -4,5 +4,11 @@ auto: true
 website: https://www.ksornberger.com
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
-title: ksornberger.com
+whitelist:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+
+title: Kevin Sornberger
