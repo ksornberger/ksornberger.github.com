@@ -10,12 +10,6 @@ rooturl: http://www.ksornberger.com
       <changefreq>weekly</changefreq>
       <priority>1</priority>
    </url>
-   <url>
-     <loc>https://ksornberger.com/about</loc>
-     <lastmod>2015-06-22</lastmod>
-     <changefreq>monthly</changefreq>
-     <priority>0.6</priority>
-</url>
 {% for post in site.posts %}
    <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
