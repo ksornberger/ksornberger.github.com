@@ -29,12 +29,12 @@ rooturl: http://www.ksornberger.com
    </url>
 {% endfor %}
    <url>
-      <loc>{{ site.url }}/about</loc>
+      <loc>{{ site.url }}/about.html</loc>
       <priority>0.5</priority>
       <changefreq>monthly</changefreq>
    </url>
    <url>
-      <loc>{{ site.url }}/projects</loc>
+      <loc>{{ site.url }}/projects.html</loc>
       <priority>0.5</priority>
       <changefreq>monthly</changefreq>
    </url>
