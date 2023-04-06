@@ -5,7 +5,7 @@ rooturl: http://www.ksornberger.com
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://ksornberger.com/</loc>
+      <loc>https://www.ksornberger.com/</loc>
       <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1</priority>
