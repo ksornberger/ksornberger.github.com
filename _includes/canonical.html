@@ -1,0 +1,6 @@
+{% if page.canonical %}
+<title> | ksornberger.com</title>
+<link rel="canonical" href="{{ page.canonical }}">
+{% else %}
+<link rel="canonical" href="{{ site.url }}{{ post.url }}">
+{% endif %}
